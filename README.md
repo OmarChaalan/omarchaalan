@@ -10,9 +10,9 @@
 
 - 🎓 Studying **Cloud Computing** with a strong interest in **AWS & DevOps**
 - ☁️ Passionate about building **cloud-native projects** using AWS (Lambda, API Gateway, Cognito, RDS, S3, CloudFront)
-- 🛠 Currently learning **Kubernetes & Amazon EKS**
+- 🛠  Currently learning **Kubernetes & Amazon EKS**
 - 🔧 Working with **Terraform** to build real AWS infrastructure  
-- 🎯 Goal: Become a **Cloud Engineer / Cloud Architect** by 2026
+- 🎯 My Goal: Become a **Cloud Engineer / Cloud Architect** by 2026
 
 ---
 
@@ -22,7 +22,7 @@
 - **IaC:** Terraform (VPCs, subnets, routing, gateways, security groups, modules)
 - **Containers:** Docker (images, containers, Dockerfile) • Learning Kubernetes
 - **DevOps / CI/CD:** Git, GitHub, GitHub Actions
-- **Programming:** Python (Beginner), Java (Intermediate), C# (Beginner), Bash, HTML/CSS/Bootstrap
+- **Programming:** Python (Beginner), Java (Intermediate), C# (Beginner), Bash, JavaScript (Begineer), HTML/CSS/Bootstrap
 - **Databases:** MySQL / AWS RDS, SQL fundamentals
 - **Other:** Linux (Ubuntu/Kali), Networking fundamentals
 
