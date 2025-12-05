@@ -1,56 +1,58 @@
 ## Hey, I'm Omar 👋
 
-🎓 **Cloud Computing Student (Graduating July 2026)**  
-☁️ **Aspiring Cloud & DevOps Engineer** | AWS • Terraform • CI/CD • Docker • Kubernetes  
-📍 Based in **Amman, Jordan**
+🎓 I'm a Cloud Computing student, graduating in **July 2026**.  
+☁️ Currently on a journey to become a **Cloud & DevOps Engineer**, focusing on **AWS, Terraform, CI/CD, Docker, and Kubernetes**.  
+📍 Based in **Amman, Jordan**.
 
 ---
 
 ## 🧑‍💻 About Me
 
-- 🎓 Studying **Cloud Computing** with a strong interest in **AWS & DevOps**
-- ☁️ Passionate about building **cloud-native projects** using AWS (Lambda, API Gateway, Cognito, RDS, S3, CloudFront)
-- 🛠  Currently learning **Kubernetes & Amazon EKS**
-- 🔧 Working with **Terraform** to build real AWS infrastructure  
-- 🎯 My Goal: Become a **Cloud Engineer / Cloud Architect** by 2026
+- I'm studying Cloud Computing and really enjoy working with **AWS and DevOps** tools.  
+- I love building **cloud-native projects** and experimenting with services like **AWS Lambda, API Gateway, RDS, Cognito, S3, CloudFront, and more.**  
+- Recently, I've been learning **Kubernetes and Amazon EKS** to understand how applications run in real production environments.  
+- I'm also spending time improving my **Terraform** skills by building more infrastructure using IaC.  
+- My long-term goal is to become a **Cloud Engineer / Cloud Architect** after graduation.
 
 ---
 
 ## 🛠 Tech Skills (Growing & Improving)
 
-- **Cloud:** AWS (EC2, S3, RDS, Lambda, API Gateway, CloudFront, IAM, VPC, Route 53, and more)
-- **IaC:** Terraform (VPCs, subnets, routing, gateways, security groups, modules)
-- **Containers:** Docker (images, containers, Dockerfile) • Learning Kubernetes
-- **DevOps / CI/CD:** Git, GitHub, GitHub Actions
-- **Programming:** Python (Beginner), Java (Intermediate), C# (Beginner), Bash, JavaScript (Begineer), HTML/CSS/Bootstrap
-- **Databases:** MySQL / AWS RDS, SQL fundamentals
-- **Other:** Linux (Ubuntu/Kali), Networking fundamentals
+- **Cloud:** AWS (EC2, S3, RDS, Lambda, API Gateway, CloudFront, IAM, VPC, Route 53, etc.)  
+- **Infrastructure as Code:** Terraform (VPCs, subnets, routing, gateways, security groups, modules)  
+- **Containers:** Docker (images, containers, Dockerfile), learning Kubernetes  
+- **DevOps / CI/CD:** Git, GitHub, GitHub Actions  
+- **Programming:** Python (beginner), Java (intermediate), C# (beginner), Bash, JavaScript (beginner), HTML/CSS/Bootstrap  
+- **Databases:** MySQL / AWS RDS, SQL basics  
+- **Other:** Linux (Ubuntu/Kali), networking fundamentals  
 
 ---
 
-## 📚 Currently Learning
+## 📚 What I’m Learning Right Now
 
-- Production-grade AWS Infrastructure with **Terraform**
-- Kubernetes & **Amazon EKS**
-- **Ansible** for configuration management
+- Building production-grade AWS setups using **Terraform**  
+- Working with Kubernetes and **Amazon EKS**  
+- Trying out **Ansible** for configuration management  
 
 ---
 
 ## 🚀 Cloud Projects (In Progress)
 
-I'm currently building and organizing my GitHub cloud projects, including:
+I'm actively building and organizing my GitHub projects. Here are a couple of key ones:
 
-### **📘 BookHub – Cloud-Native Book Review, Ratings & Recommendation Platform**
-- Serverless backend using **AWS Lambda, API Gateway, Cognito, RDS**
-- React frontend hosted on **S3 + CloudFront + Route 53**
-- Recommendation system using **AWS Personalize**
-- Fully deployed using **Terraform (IaC)**  
-- Includes price comparison using external APIs
+### 📘 **BookHub – Cloud-Native Book Review & Recommendation Platform**
+- Serverless backend with **AWS Lambda, API Gateway, Cognito, and RDS**  
+- React frontend hosted on **S3**, delivered with **CloudFront** and **Route 53**  
+- Recommendation system built with **AWS Personalize**  
+- Entire infrastructure managed using **Terraform**  
+- Includes price comparison using external book APIs  
 
-### **🌐 Personal Portfolio – Static Website on AWS**
-- Hosted on **S3 Bucket**  
-- Delivered globally using **CloudFront**  
-- Domain managed through **Route 53**
+---
+
+### 🌐 **Personal Portfolio – Static Website on AWS**
+- Hosted on an **S3 bucket**  
+- Delivered worldwide using **CloudFront**  
+- Domain and routing managed through **Route 53**  
 
 ---
 
@@ -61,4 +63,5 @@ I'm currently building and organizing my GitHub cloud projects, including:
 
 ---
 
-I’m documenting my entire journey on GitHub from **Cloud Computing Student → Cloud Engineer**, one project at a time. Stay tuned 😄
+I'm sharing my journey as I grow from a **Cloud Computing student** into a **Cloud Engineer**.  
+More projects coming soon — stay tuned 😄
