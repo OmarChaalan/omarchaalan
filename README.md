@@ -44,8 +44,9 @@ I'm actively building and organizing my GitHub projects. Here are a couple of ke
 - Serverless backend with **AWS Lambda, API Gateway, Cognito, and RDS**  
 - React frontend hosted on **S3**, delivered with **CloudFront** and **Route 53**  
 - Recommendation system built with **AWS Personalize**  
-- Entire infrastructure managed using **Terraform**  
-- Includes price comparison using external book APIs  
+- Entire infrastructure managed using **Terraform**
+- Used **AWS SNS** for the notificatiob system
+- Includes price comparison using external book APIs
 
 ---
 
