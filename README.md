@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Omar Chaalan 👋</h1>
 
 <p align="center">
-  <b>Cloud Computing Graduate · AWS Developer · Infrastructure as Code Enthusiast</b>
+  <b>Cloud Computing Graduate · AWS Developer · Cloud Architect · Infrastructure as Code Enthusiast</b>
 </p>
 
 <p align="center">
