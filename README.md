@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/omarchaalan"><img src="https://img.shields.io/badge/LinkedIn-Omar%20Chaalan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:omar.chaalan05@gmail.com"><img src="https://img.shields.io/badge/Email-omar.chaalan05@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="/cdn-cgi/l/email-protection#2d42404c5f034e454c4c414c431d186d4a404c4441034e4240"><img src="https://img.shields.io/badge/Email-omar.chaalan05@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge" />
 </p>
 
@@ -14,7 +14,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a Cloud Computing graduate from **Luminus Technical University College (LTUC)** with hands-on experience designing and deploying secure, scalable, and cost-efficient solutions on AWS.
+I'm a Cloud Computing graduate from **Luminus Technical University College (LTUC)**, Jordan, with a GPA of **92/100**, and hands-on experience designing and deploying secure, scalable, and cost-efficient solutions on AWS.
 
 I enjoy building things that actually work in the real world — from serverless APIs and VPC architectures to full cloud-native applications provisioned with Terraform. My graduation project **BookArc** is a fully deployed, cloud-native book platform that brings together serverless computing, relational databases, authentication, and a React frontend — all on AWS.
 
@@ -89,10 +89,4 @@ I'm currently working towards my **AWS Certification** and actively looking for 
 I'm currently **open to work** and looking for junior Cloud Engineer, DevOps, or AWS-related roles.
 
 - 💼 LinkedIn: [linkedin.com/in/omarchaalan](https://www.linkedin.com/in/omarchaalan)
-- 📧 Email: [omar.chaalan05@gmail.com](mailto:omar.chaalan05@gmail.com)
-
----
-
-<p align="center">
-  <i>"Build things that work. Make them secure. Make them scale."</i>
-</p>
+- 📧 Email: [<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="83eceee2f1ade0ebe2e2efe2edb3b6c3e4eee2e
