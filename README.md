@@ -89,4 +89,4 @@ I'm currently working towards my **AWS Certification** and actively looking for 
 I'm currently **open to work** and looking for junior Cloud Engineer, DevOps, or AWS-related roles.
 
 - 💼 LinkedIn: [linkedin.com/in/omarchaalan](https://www.linkedin.com/in/omarchaalan)
-- 📧 Email: [<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="83eceee2f1ade0ebe2e2efe2edb3b6c3e4eee2e
+- 📧 Email: [omar.chaalan05@gmail.com](mailto:omar.chaalan05@gmail.com)
