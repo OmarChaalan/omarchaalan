@@ -24,7 +24,7 @@ I'm currently working towards my **AWS Certification** and actively looking for 
 
 ## 🚀 Featured Project
 
-### 📚 [BookArc — Cloud-Native Book Platform](https://github.com/omarchaalan/bookarc](https://github.com/OmarChaalan/bookarc-cloud-application)
+### 📚 [BookArc — Cloud-Native Book Platform][https://github.com/OmarChaalan/bookarc-cloud-application]
 
 > My graduation capstone project — a fully serverless book management and recommendation platform built and deployed on AWS.
 
