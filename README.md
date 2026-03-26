@@ -1,68 +1,133 @@
-## Hey, I'm Omar 👋
+# 📚 BookArc — Cloud-Native Book Management & Recommendation Platform
 
-🎓 I'm a Cloud Computing student, graduating in **July 2026**.  
-☁️ Currently on a journey to become a **Cloud & DevOps Engineer**, focusing on **AWS, Terraform, CI/CD, Docker, and Kubernetes**.  
-📍 Based in **Amman, Jordan**.
-
----
-
-## 🧑‍💻 About Me
-
-- I'm studying Cloud Computing and really enjoy working with **AWS and DevOps** tools.  
-- I love building **cloud-native projects** and experimenting with services like **AWS Lambda, API Gateway, RDS, Cognito, S3, CloudFront, and more.**  
-- Recently, I've been learning **Kubernetes and Amazon EKS** to understand how applications run in real production environments.  
-- I'm also spending time improving my **Terraform** skills by building more infrastructure using IaC.  
-- My long-term goal is to become a **Cloud Engineer / Cloud Architect** after graduation.
+> **Graduation Project** — Cloud Computing B.S., Luminus Technical University College (LTUC)  
+> Built and deployed on AWS using serverless architecture, Infrastructure as Code, and modern frontend development.
 
 ---
 
-## 🛠 Tech Skills (Growing & Improving)
+## 🌟 What is BookArc?
 
-- **Cloud:** AWS (EC2, S3, RDS, Lambda, API Gateway, CloudFront, IAM, VPC, Route 53, etc.)  
-- **Infrastructure as Code:** Terraform (VPCs, subnets, routing, gateways, security groups, modules)  
-- **Containers:** Docker (images, containers, Dockerfile), learning Kubernetes  
-- **DevOps / CI/CD:** Git, GitHub, GitHub Actions  
-- **Programming:** Python (beginner), Java (intermediate), C# (beginner), Bash, JavaScript (beginner), HTML/CSS/Bootstrap  
-- **Databases:** MySQL / AWS RDS, SQL basics  
-- **Other:** Linux (Ubuntu/Kali), networking fundamentals  
+BookArc is a fully serverless, cloud-native web application designed for book lovers. It enables users to discover books, manage personal reading lists, write reviews, compare prices, and receive intelligent personalized recommendations — all powered by AWS.
+
+This project was built as my graduation capstone to demonstrate real-world cloud engineering skills: designing a scalable architecture, provisioning infrastructure with Terraform, securing access with Cognito, and delivering a fast frontend globally via CloudFront.
 
 ---
 
-## 📚 What I’m Learning Right Now
+## ✨ Core Features
 
-- Building production-grade AWS setups using **Terraform**  
-- Working with Kubernetes and **Amazon EKS**  
-- Trying out **Ansible** for configuration management  
-
----
-
-## 🚀 Cloud Projects (In Progress)
-
-I'm actively building and organizing my GitHub projects. Here are a couple of key ones:
-
-### 📘 **BookHub – Cloud-Native Book Review & Recommendation Platform**
-- Serverless backend with **AWS Lambda, API Gateway, Cognito, and RDS**  
-- React frontend hosted on **S3**, delivered with **CloudFront** and **Route 53**  
-- Recommendation system built with **AWS Personalize**  
-- Entire infrastructure managed using **Terraform**
-- Used **AWS SNS** for the notification system
-- Includes price comparison using external book APIs
+| Feature | Description |
+|---|---|
+| 🔍 **Book Discovery** | Search and browse an extensive book catalog |
+| ⭐ **Reviews & Ratings** | Write reviews and rate books |
+| 📋 **Reading Lists** | Create and manage personal reading lists |
+| 💰 **Price Comparison** | Compare book prices across sources |
+| 🤖 **Personalized Recommendations** | Custom recommendation logic powered by AWS Lambda |
+| 🔔 **Notifications** | System notifications powered by AWS Lambda |
+| 🔐 **Secure Authentication** | User registration, login, and session management via AWS Cognito |
 
 ---
 
-### 🌐 **Personal Portfolio – Static Website on AWS**
-- Hosted on an **S3 bucket**  
-- Delivered worldwide using **CloudFront**  
-- Domain and routing managed through **Route 53**  
+## 🏗️ Cloud Architecture Overview
+
+BookArc follows a **serverless, event-driven architecture** hosted entirely on AWS:
+
+- The **React frontend** is hosted on **S3** and served globally through **CloudFront** for low-latency delivery.
+- All API requests go through **Amazon API Gateway**, which routes them to **AWS Lambda** functions — no servers to manage.
+- User data is stored in **Amazon RDS (MySQL)**, running inside a private subnet in a custom **VPC** for network isolation.
+- A **Bastion Host (EC2)** in a public subnet is used for secure database administration — the RDS instance is never exposed to the internet.
+- **AWS Cognito** handles all authentication, token management, and user pools.
+- **AWS Lambda** also powers the recommendation engine and notification system — both implemented as dedicated Lambda functions triggered by user activity.
+
+📐 Architecture Diagram: [`docs/architecture/bookarc-cloud-architecture.png`](docs/architecture/bookarc-cloud-architecture.png)  
+📄 Detailed Architecture Explanation: [`docs/architecture/architecture-explanation.md`](docs/architecture/architecture-explanation.md)
 
 ---
 
-## 📫 How to Reach Me
+## 🛠️ Technology Stack
 
-- 💼 LinkedIn: https://www.linkedin.com/in/omarchaalan  
-- 📧 Email: **omar.chaalan05@gmail.com**
+### ☁️ AWS Services
+
+| Service | Purpose |
+|---|---|
+| **AWS Lambda** | Serverless compute for API logic, recommendation engine, and notification system |
+| **Amazon API Gateway** | REST API management and request routing |
+| **Amazon RDS (MySQL)** | Relational database for structured data |
+| **Amazon Cognito** | User authentication and authorization |
+| **Amazon S3** | Static frontend hosting and image/asset storage |
+| **Amazon CloudFront** | Global CDN for fast content delivery |
+| **Amazon VPC** | Network isolation with public/private subnets |
+| **AWS EC2** | Bastion Host for secure database administration |
+
+### 🧱 Infrastructure as Code
+
+| Tool | What it Provisioned |
+|---|---|
+| **Terraform** | VPC, CloudFront, Frontend S3 Bucket, RDS |
+| **AWS Console** | Cognito, API Gateway, Lambda, EC2, S3 Buckets |
+
+### 🎨 Frontend
+
+- **React.js** — Component-based UI
+- Hosted on **Amazon S3**, delivered via **Amazon CloudFront**
 
 ---
 
-I'm sharing my journey as I grow from a **Cloud Computing student** into a **Cloud Engineer**.  
-More projects coming soon — stay tuned 😄
+## 🗄️ Database Design
+
+BookArc uses a relational MySQL database hosted on Amazon RDS. The schema is designed to support users, books, reviews, ratings, reading lists, and recommendation tracking.
+
+📊 ERD Diagrams:
+- [`docs/erd/bookarc-erd1.jpg`](docs/erd/bookarc-erd1.jpg)
+- [`docs/erd/bookarc-erd2.jpeg`](docs/erd/bookarc-erd2.jpeg)
+- [`docs/erd/bookarc-erd3.jpeg`](docs/erd/bookarc-erd3.jpeg)
+
+📄 Entity Descriptions: [`docs/erd/erd-description.md`](docs/erd/erd-description.md)
+
+---
+
+## 📁 Repository Structure
+
+```
+bookarc/
+├── docs/
+│   ├── architecture/       → Cloud architecture diagrams and explanation
+│   └── erd/                → Database ERD diagrams and entity descriptions
+├── terraform/              → Infrastructure as Code (Terraform configs)
+├── backend/                → AWS Lambda functions and business logic
+└── frontend/               → React.js frontend application
+```
+
+---
+
+## 🔐 Security Highlights
+
+- RDS database is in a **private subnet** — not accessible from the internet
+- Database administration is done exclusively via a **Bastion Host** in a public subnet
+- All API endpoints are protected with **AWS Cognito JWT tokens**
+- S3 buckets are private; assets are served only through **CloudFront**
+- VPC security groups follow the **principle of least privilege**
+
+---
+
+## 💡 Key Engineering Decisions
+
+**Why Serverless?**  
+Lambda + API Gateway eliminates server management, scales automatically with traffic, and reduces cost — you only pay for actual usage.
+
+**Why Terraform for part of the infrastructure?**  
+Core networking (VPC, subnets, RDS, CloudFront) is provisioned via Terraform for reproducibility and version control. This demonstrates Infrastructure as Code best practices.
+
+**Why a Bastion Host instead of direct RDS access?**  
+Direct public access to the database would be a major security risk. The Bastion Host pattern ensures the database is only reachable from an authorized, controlled entry point.
+
+---
+
+## 👨‍💻 Author
+
+**[Your Name]**  
+Cloud Computing Graduate — LTUC  
+[LinkedIn](#) | [GitHub](#)
+
+---
+
+> *BookArc was fully deployed on AWS as part of my graduation project, demonstrating end-to-end cloud engineering from architecture design to infrastructure provisioning and frontend delivery.*
