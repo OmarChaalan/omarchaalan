@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/omarchaalan"><img src="https://img.shields.io/badge/LinkedIn-Omar%20Chaalan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="/cdn-cgi/l/email-protection#2d42404c5f034e454c4c414c431d186d4a404c4441034e4240"><img src="https://img.shields.io/badge/Email-omar.chaalan05@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="/cdn-cgi/l/email-protection#2d42404c5f034e454c4c414c431d186d4a404c4441034e4240"><img src="https://img.shields.io/badge/Email-omar.a.chaalan@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge" />
 </p>
 
