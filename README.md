@@ -175,7 +175,7 @@ Luminus Technical University College (LTUC)
 ## 🏆 Achievements
 
 **Competitor — Jordanian Collegiate Programming Contest (JCPC)**  
-October 2025
+October 2023
 
 ---
 
